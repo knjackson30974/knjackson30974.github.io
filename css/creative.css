@@ -75,10 +75,12 @@ body {
 }
 
 hr {
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -4460,6 +4462,7 @@ input[type="button"].btn-block {
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
+  color: #eb3812;
 }
 
 .navbar-nav {
