@@ -10639,7 +10639,7 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: #a8ffa8;
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
@@ -10660,7 +10660,7 @@ hr.light {
     background-color: #fff;
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #212529;
+    color: #eb3812;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #f4623a;
@@ -10829,4 +10829,8 @@ header.masthead h1 {
 }
 .circles:hover {
   transform: scale(1.1); 
+}
+
+.img-row {
+  padding: 50px 0  25px;
 }
