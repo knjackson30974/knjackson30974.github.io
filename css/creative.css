@@ -154,7 +154,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
+  background-position: center 95%;
   background-image: url('../img/cacti.jpg');
   text-align: center;
   color: white;
@@ -419,4 +419,7 @@ body {
   border-radius: 50%;
   height: 200px;
   width:  200px;
+}
+.image-row {
+  padding: 50px 20px;
 }
