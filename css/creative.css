@@ -4453,7 +4453,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 36px;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -10669,7 +10669,20 @@ hr.light {
     color: #f4623a;
   }
 }
-
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center 95%;
+  background-image: url('../img/cacti.jpg');
+  text-align: center;
+  color: white;
+}
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
