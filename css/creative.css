@@ -72,8 +72,11 @@ aside {
 .navbar-default .navbar-header .navbar-brand {
   color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #a8ffa8;
+  font-size: 36px !important;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -199,7 +202,7 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 50px;
+    font-size: 75px;
   }
   header .header-content .header-content-inner p {
     font-size: 18px;
@@ -419,6 +422,10 @@ body {
   border-radius: 50%;
   height: 200px;
   width:  200px;
+  transition: all .2s ease-in-out;
+}
+.rounded-circle:hover {
+  transform: scale(1.1); 
 }
 .image-row {
   padding: 50px 20px;
