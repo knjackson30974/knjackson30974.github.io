@@ -152,6 +152,7 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -416,16 +417,10 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
-.rounded-circle {
+.circles {
   object-fit: cover;
-  border-radius: 50%;
-  height: 200px;
-  width:  200px;
   transition: all .2s ease-in-out;
 }
-.rounded-circle:hover {
+.circles:hover {
   transform: scale(1.1); 
-}
-.image-row {
-  padding: 50px 20px;
 }
