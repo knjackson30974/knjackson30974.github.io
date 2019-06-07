@@ -10830,7 +10830,9 @@ header.masthead h1 {
 .circles:hover {
   transform: scale(1.1); 
 }
-
+.about-me{
+  padding-top: 10px;
+}
 .img-row {
   padding: 50px 0  25px;
 }
