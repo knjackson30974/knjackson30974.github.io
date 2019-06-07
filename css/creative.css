@@ -6919,7 +6919,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #eb3812 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10833,4 +10833,10 @@ header.masthead h1 {
 
 .img-row {
   padding: 50px 0  25px;
+}
+i{
+  color: row;
+}
+.contact-section{
+  padding-top: 10px;
 }
