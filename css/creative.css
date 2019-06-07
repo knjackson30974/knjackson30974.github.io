@@ -10681,7 +10681,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position:top center;
+  background-position:center 100%;
   background-image: url('../img/cacti.jpg');
   text-align: center;
   color: white;
